@@ -87,6 +87,5 @@ This ensured accurate aggregation and reliable visual insights.
 * Middle-aged customers (30–54) represent the largest purchasing segment
 * Shorter commute distances correlate with higher bike purchases
 
----
 
 
