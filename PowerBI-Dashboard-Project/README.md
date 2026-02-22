@@ -85,6 +85,5 @@ This step ensured data quality and reliable KPI calculations.
 * Python is the most preferred programming language across data professions
 * Salary and satisfaction levels vary significantly by job title, but not by gender
 
----
 
 
