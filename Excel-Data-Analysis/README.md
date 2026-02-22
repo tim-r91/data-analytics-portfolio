@@ -1,89 +1,92 @@
-# Data Professional Survey Dashboard (Power BI)
+# Bike Purchase Analysis Dashboard (Excel)
 
 ## Project Overview
 
-This project consists of an interactive Power BI dashboard built on a survey dataset of data professionals. The objective was to explore trends in salaries, job roles, programming languages, and satisfaction metrics through clear and business-oriented visualisations.
+This project consists of an interactive Excel dashboard analysing customer bike purchase behaviour based on demographic and socio-economic factors.
+The goal was to identify patterns that influence whether customers purchase a bike, using data cleaning, pivot tables, and dashboard visualisation techniques in Microsoft Excel.
 
-The dashboard enables dynamic analysis using filters such as gender, country, and job title, allowing users to explore insights from multiple perspectives.
+This project was completed as part of a guided learning project to strengthen practical data analysis and dashboarding skills.
 
 ---
 
-## Objectives
+## Business Objective
 
-* Analyse salary trends across different data roles
-* Compare demographic characteristics of respondents
-* Identify preferred programming languages by job title
-* Visualise satisfaction with work/life balance and salary
-* Create an interactive and user-friendly BI dashboard
+To analyse which customer profiles are more likely to purchase a bike based on:
+
+* Income level
+* Age bracket
+* Commute distance
+* Education level
+* Marital status
+* Region
+
+The dashboard is designed to support data-driven decision-making by highlighting key customer segments.
 
 ---
 
 ## Dataset
 
-* Source: [Survey data of data professionals by Alex The Analyst](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
-* Format: Structured tabular dataset
-* Size: ~600+ respondents
-* Key fields: Job Title, Salary, Country, Gender, Age, Programming Language, Satisfaction Scores
+* Source: [Bike Purchase dataset by Alex The Analyst](https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx)
+* Context: Bike purchase dataset
+* Structure: Tabular dataset with demographic and behavioural variables
+* Key variables: Income, Age, Gender, Commute Distance, Education, Region, Purchased Bike (Yes/No)
 
 ---
 
-## Data Preparation (Power Query)
+## Data Cleaning (Excel)
 
-Data transformation and cleaning were performed in Power Query before building the dashboard:
+All data preparation was performed directly in Excel:
 
-* Removed irrelevant and unused columns to improve model efficiency
-* Cleaned and structured raw survey data
-* Standardised column names for clarity and consistency
-* Adjusted data types (e.g. numeric fields, categorical fields)
-* Prepared dataset for accurate aggregation and visualisation
+* Removed unnecessary columns
+* Cleaned and structured raw data
+* Standardised column names
+* Handled data types for numerical and categorical fields
+* Prepared dataset for Pivot Table analysis
 
-This step ensured data quality and reliable KPI calculations.
-
----
-
-## Data Modelling
-
-* Single cleaned dataset used for analysis
-* Structured fields for filtering and segmentation
-* Optimised model for interactive dashboard performance
+This ensured accurate aggregation and reliable visual insights.
 
 ---
 
-## Key KPIs & Metrics
+## Tools & Techniques Used
 
-* Total number of respondents
-* Average age of participants
-* Average salary by job title
-* Average salary by gender
-* Happiness with work/life balance
-* Happiness with salary
+* Microsoft Excel
+* Pivot Tables
+* Pivot Charts
+* Slicers (Interactive Filters)
+* Data Cleaning in Excel
+* Dashboard Design & Data Visualisation
 
 ---
 
 ## Dashboard Features
 
-* Interactive filters (Gender, Country, Job Title)
-* KPI cards for high-level insights
-* Salary comparison by job role
-* Programming language preferences by job title
-* Geographic distribution of participants
-* Satisfaction gauges for qualitative metrics
+* Interactive slicers for:
+  * Marital Status
+  * Region
+  * Education Level
+
+* Dynamic comparison between customers who purchased vs. did not purchase a bike
+* Fully interactive filtering experience
+* Clear visual storytelling for business insights
 
 ---
 
-## Tools & Technologies
+## Key Metrics & Visualisations
 
-* Power BI (Dashboard Development & Visualisation)
-* Power Query (Data Cleaning & Transformation)
-* Data Analysis & Visualisation Best Practices
+* Average Income per Purchase (by Gender)
+* Customer Age Brackets vs Purchase Behaviour
+* Purchase Count by Commute Distance
+* Segmentation of buyers vs non-buyers
+* Demographic filtering via slicers
 
 ---
 
 ## Key Insights
 
-* Data Scientists show the highest average salary among surveyed roles
-* Python is the most preferred programming language across data professions
-* Salary and satisfaction levels vary significantly by job title, but not by gender
+* Customers with higher income show a higher likelihood of purchasing a bike
+* Middle-aged customers (30–54) represent the largest purchasing segment
+* Shorter commute distances correlate with higher bike purchases
 
 ---
+
 
